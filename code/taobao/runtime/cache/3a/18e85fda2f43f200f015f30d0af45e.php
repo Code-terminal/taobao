@@ -1,0 +1,4 @@
+<?php
+//000000086400
+ exit();?>
+a:3:{i:0;a:6:{s:2:"id";i:195;s:3:"pic";s:85:"http://localhost/uploads/attach/2020/02/20200223/56dc1c5ebfde0c2b50f25f64a96064a5.png";s:5:"title";s:6:"拼团";s:4:"info";s:6:"拼团";s:4:"link";s:39:"/pages/activity/goods_combination/index";s:8:"wap_link";s:15:"/activity/group";}i:1;a:6:{s:2:"id";i:196;s:3:"pic";s:85:"http://localhost/uploads/attach/2020/02/20200223/ddbf7daf1c83d058103dd425713942a4.png";s:5:"title";s:6:"秒杀";s:4:"info";s:6:"秒杀";s:4:"link";s:35:"/pages/activity/goods_seckill/index";s:8:"wap_link";s:23:"/activity/goods_seckill";}i:2;a:6:{s:2:"id";i:197;s:3:"pic";s:85:"http://localhost/uploads/attach/2020/02/20200223/9ab1800ffa2d792646773f486ac607a1.png";s:5:"title";s:6:"砍价";s:4:"info";s:6:"砍价";s:4:"link";s:35:"/pages/activity/goods_bargain/index";s:8:"wap_link";s:17:"/activity/bargain";}}

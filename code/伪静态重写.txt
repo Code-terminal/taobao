@@ -1,0 +1,13 @@
+# 伪静态
+可以通过URL重写隐藏应用的入口文件index.php,下面是相关服务器的配置参考：
+
+1.AllowOverride None 将None改为 All
+2. 把下面的内容保存为.htaccess文件放到应用入口文件的同级目录下
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks -Multiviews
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+</IfModule>
